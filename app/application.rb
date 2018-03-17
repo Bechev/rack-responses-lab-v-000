@@ -10,6 +10,7 @@ class Application
     else
       resp.write
       "Good morning"
+    end
     #Write good afternoon or good Morning
     # if time < resp.write
     resp.finish
