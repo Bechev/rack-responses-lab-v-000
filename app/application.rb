@@ -7,5 +7,6 @@ class Application
     resp.write "#{time.hour}"
     #Write good afternoon or good Morning
     # if time < resp.write
+    resp.finish
   end
 end
