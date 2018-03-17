@@ -5,6 +5,11 @@ class Application
     #get time here: time = TBD
     time = Time.new
     resp.write "#{time}"
+    if time.hour >= 12
+      resp.write "Good afternoon"
+    else
+      resp.write
+      "Good morning"
     #Write good afternoon or good Morning
     # if time < resp.write
     resp.finish
